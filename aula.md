@@ -28,7 +28,9 @@ Apresentar os dados
 
 ## Tipos de dados:
 
-- [x] Strings (texto): "" '' ``
+- [x] Strings (texto): "" '' `` 
+console.log("hello world");
+    objeto    função          string são textos
 - [x] Numbers: 2 1.4
 - [x] Boolean: true, false
 
