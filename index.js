@@ -7,9 +7,10 @@ let meta = {
     }
 }
 
+meta.value = "não é mais ler um livro"
 meta.log(meta.value)
 
 // fuction // arrow fuction 
-const criarMeta = () => {}
+//const criarMeta = () => {}
 
-function criarMeta () {}
+//function criarMeta () {} 
