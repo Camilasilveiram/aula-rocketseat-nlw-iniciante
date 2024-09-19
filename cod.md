@@ -25,3 +25,46 @@ let metas = [
 ]
 
 console.log(metas[1].value)
+
+
+//////////////////////////
+
+## estrutura de repetição
+
+//function start() {
+   // console.log("comecou")
+//}
+
+//start()
+
+ //segunda opção 
+
+ const start = () => {
+    let count = 1
+    while(count <= 10){
+        console.log(count)
+        count = count + 1
+        
+    }
+}
+start()
+
+///////////////////////
+ 
+ const start = () => {
+
+    while (true){
+        let opcao = "sair"
+        switch (opcao) {
+            case "cadastrar":
+                console.log("vamos cadastrar")
+                break
+            case "listar":
+                console.log("vamos listar")
+                break
+            case "sair":
+                return
+        }
+    }
+}
+start()
